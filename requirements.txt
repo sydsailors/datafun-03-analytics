@@ -144,6 +144,11 @@ wheel
 # Easy logging for monitoring code execution
 loguru
 
+# ======================================================
+# NETWORKING / HTTP
+# ======================================================
+requests
+
 # HTTP requests made simple
 # requests
 
