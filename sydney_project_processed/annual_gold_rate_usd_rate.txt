@@ -1,0 +1,5 @@
+USD Rate Statistics:
+Minimum: 193.44
+Maximum: 1798.61
+Mean: 692.06
+Standard Deviation: 486.23

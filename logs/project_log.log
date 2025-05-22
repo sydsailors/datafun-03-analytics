@@ -134,3 +134,7 @@
 2025-05-22 14:29:11.870 | INFO     | __main__:write_csv_file:80 - Writing CSV data to sydney_project_data/annual_gold_rate.csv...
 2025-05-22 14:29:11.870 | INFO     | __main__:write_csv_file:84 - SUCCESS: CSV data written to sydney_project_data/annual_gold_rate.csv
 2025-05-22 14:29:11.871 | INFO     | __main__:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as annual_gold_rate.csv
+2025-05-22 14:34:16.003 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 14:34:16.003 | INFO     | __main__:<module>:97 - Starting CSV processing...
+2025-05-22 14:34:16.006 | INFO     | __main__:process_csv_file:90 - Processed CSV file: sydney_project_data/annual_gold_rate.csv, Statistics saved to: sydney_project_processed/annual_gold_rate_usd_rate.txt
+2025-05-22 14:34:16.007 | INFO     | __main__:<module>:99 - CSV processing complete.
