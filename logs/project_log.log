@@ -68,3 +68,7 @@
 2025-05-22 12:27:06.585 | INFO     | __main__:<module>:83 - Starting Excel processing...
 2025-05-22 12:27:06.648 | INFO     | __main__:process_excel_file:76 - Processed Excel file: example_data/Feedback.xlsx, Word count saved to: example_processed/excel_feedback_github_count.txt
 2025-05-22 12:27:06.648 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-05-22 13:32:25.365 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 13:32:25.366 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-05-22 13:32:25.431 | INFO     | __main__:process_excel_file:76 - Processed Excel file: example_data/Feedback.xlsx, Word count saved to: example_processed/excel_feedback_github_count.txt
+2025-05-22 13:32:25.431 | INFO     | __main__:<module>:85 - Excel processing complete.

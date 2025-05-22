@@ -1,1 +1,1 @@
-Occurrences of 'GitHub' in column A: 19
+Occurrences of 'repository' in column A: 19
