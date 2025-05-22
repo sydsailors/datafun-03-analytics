@@ -22,7 +22,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-# TODO: Replace with the names of your folders
+
 FETCHED_DATA_DIR: str = "sydney_project_data"
 PROCESSED_DIR: str = "sydney_project_processed"
 
@@ -30,7 +30,7 @@ PROCESSED_DIR: str = "sydney_project_processed"
 # Define Functions
 #####################################
 
-# TODO: Add or replace this with a function that reads and processes your CSV file
+
 
 def analyze_usd_rate(file_path: pathlib.Path) -> dict:
     """Analyze the USD column to calculate min, max, mean, and stdev."""
@@ -63,14 +63,11 @@ def analyze_usd_rate(file_path: pathlib.Path) -> dict:
 def process_csv_file():
     """Read a CSV file, analyze Ladder score, and save the results."""
     
-    # TODO: Replace with path to your CSV data file
+
     input_file = pathlib.Path(FETCHED_DATA_DIR, "annual_gold_rate.csv")
-    
-    # TODO: Replace with path to your CSV processed file
+
     output_file = pathlib.Path(PROCESSED_DIR, "annual_gold_rate_usd_rate.txt")
-    
-    # TODO: Call your new function to process YOUR CSV file
-    # TODO: Create a new local variable to store the result of the function call
+
     stats = analyze_usd_rate(input_file)
 
     # Create the output directory if it doesn't exist
