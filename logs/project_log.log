@@ -188,3 +188,12 @@
 2025-05-22 16:10:04.852 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'sydney_profect_data/romeo.txt'
 2025-05-22 16:10:04.855 | INFO     | __main__:process_text_file:59 - Processed text file: sydney_profect_data/romeo.txt, Word count saved to: sydney_project_processed/text_romeo_word_count.txt
 2025-05-22 16:10:04.855 | INFO     | __main__:<module>:68 - Text processing complete.
+2025-05-22 16:13:22.351 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 16:13:22.352 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-05-22 16:13:22.352 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'sydney_profect_data/romeo.txt'
+2025-05-22 16:13:22.353 | INFO     | __main__:process_text_file:59 - Processed text file: sydney_profect_data/romeo.txt, Word count saved to: sydney_project_processed/text_romeo_word_count.txt
+2025-05-22 16:13:22.353 | INFO     | __main__:<module>:68 - Text processing complete.
+2025-05-22 16:13:31.586 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 16:13:31.589 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-05-22 16:13:31.598 | INFO     | __main__:process_text_file:59 - Processed text file: sydney_project_data/romeo.txt, Word count saved to: sydney_project_processed/text_romeo_word_count.txt
+2025-05-22 16:13:31.598 | INFO     | __main__:<module>:68 - Text processing complete.

@@ -21,7 +21,7 @@ from utils_logger import logger
 #####################################
 
 
-FETCHED_DATA_DIR: str = "sydney_profect_data"
+FETCHED_DATA_DIR: str = "sydney_project_data"
 PROCESSED_DIR: str = "sydney_project_processed"
 
 #####################################
