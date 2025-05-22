@@ -28,7 +28,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "sydney_data"
+FETCHED_DATA_DIR = "sydney_project_data"
 
 #####################################
 # Define Functions
@@ -94,9 +94,9 @@ def main():
     """
     Main function to demonstrate fetching JSON data.
     """
-    json_url = 'http://api.open-notify.org/astros.json'
+    json_url = 'https://api.nobelprize.org/v1/prize.json'
     logger.info("Starting JSON fetch demonstration...")
-    fetch_json_file(FETCHED_DATA_DIR, "astros.json", json_url)
+    fetch_json_file(FETCHED_DATA_DIR, "nobel_prize.json", json_url)
 
 #####################################
 # Conditional Execution
