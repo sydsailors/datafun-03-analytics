@@ -1,0 +1,28 @@
+2025-05-21 21:08:46.151 | INFO     | __main__:<module>:41 - Logging to file: logs/project_log.log
+2025-05-21 21:08:46.152 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-05-21 21:08:46.152 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-05-21 21:08:46.152 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-05-21 21:08:46.152 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-05-21 21:08:46.152 | INFO     | __main__:main:68 - View the log output at logs/project_log.log
+2025-05-21 21:08:46.152 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-05-21 21:22:16.565 | INFO     | __main__:<module>:41 - Logging to file: logs/project_log.log
+2025-05-21 21:22:16.567 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-05-21 21:22:16.567 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-05-21 21:22:16.568 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-05-21 21:22:16.568 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-05-21 21:22:16.568 | INFO     | __main__:main:68 - View the log output at logs/project_log.log
+2025-05-21 21:22:16.568 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-05-22 11:18:36.482 | INFO     | __main__:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 11:18:36.483 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-05-22 11:18:36.484 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-05-22 11:18:36.484 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-05-22 11:18:36.484 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-05-22 11:18:36.484 | INFO     | __main__:main:68 - View the log output at logs/project_log.log
+2025-05-22 11:18:36.485 | INFO     | __main__:main:69 - EXITING utils_logger.py.
+2025-05-22 11:26:12.958 | INFO     | __main__:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 11:26:12.959 | INFO     | __main__:main:63 - STARTING utils_logger.py
+2025-05-22 11:26:12.960 | INFO     | __main__:log_example:54 - This is an example info message.
+2025-05-22 11:26:12.960 | WARNING  | __main__:log_example:55 - This is an example warning message.
+2025-05-22 11:26:12.960 | ERROR    | __main__:log_example:56 - This is an example error message.
+2025-05-22 11:26:12.961 | INFO     | __main__:main:68 - View the log output at logs/project_log.log
+2025-05-22 11:26:12.961 | INFO     | __main__:main:69 - EXITING utils_logger.py.
