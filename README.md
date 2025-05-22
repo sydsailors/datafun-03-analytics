@@ -37,3 +37,15 @@ python3 demo-script.py
 ## Add Dependency to requirements.txt
 - requests
 
+## Add Files to Retrieve Data from the Web
+- yourname_get_csv.py
+- yourname_get_excel.py
+- yourname_get_json.py
+- yourname_get_text.py
+
+## Add Files to Analyze and Process Fetched Data
+- yourname_process_csv.py
+- yourname_process_excel.py
+- yourname_process_json.py
+- yourname_process_txt.py
+
