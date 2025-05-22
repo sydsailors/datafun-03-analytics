@@ -108,3 +108,7 @@
 2025-05-22 13:49:58.181 | INFO     | __main__:<module>:117 - Starting JSON processing...
 2025-05-22 13:49:58.183 | INFO     | __main__:process_json_file:110 - Processed JSON file: sydney_data/astros.json, Results saved to: sydney_processed/json_astronauts_by_craft.txt
 2025-05-22 13:49:58.184 | INFO     | __main__:<module>:119 - JSON processing complete.
+2025-05-22 14:07:21.561 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 14:07:21.562 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-05-22 14:07:21.564 | INFO     | __main__:process_text_file:59 - Processed text file: sydney_data/romeo.txt, Word count saved to: sydney_processed/text_romeo_word_count.txt
+2025-05-22 14:07:21.564 | INFO     | __main__:<module>:68 - Text processing complete.
