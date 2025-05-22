@@ -187,7 +187,7 @@ ipywidgets
 
 # Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
 # Used by pandas and other libraries.
-# openpyxl
+openpyxl
 
 # For writing advanced Excel files (.xlsx)
 # xlsxwriter
@@ -196,7 +196,7 @@ ipywidgets
 # xlrd
 
 # Optional: For unified access to different spreadsheet formats
-# pyexcel
+pyexcel
 
 # ======================================================
 # DATA STORAGE, TRANSFORMATION, AND ORCHESTRATION

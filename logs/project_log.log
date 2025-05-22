@@ -54,3 +54,17 @@
 2025-05-22 11:56:08.624 | INFO     | __main__:<module>:97 - Starting CSV processing...
 2025-05-22 11:56:08.636 | INFO     | __main__:process_csv_file:90 - Processed CSV file: example_data/2020_happiness.csv, Statistics saved to: example_processed/happiness_ladder_score_stats.txt
 2025-05-22 11:56:08.636 | INFO     | __main__:<module>:99 - CSV processing complete.
+2025-05-22 12:23:05.377 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 12:23:05.379 | INFO     | __main__:<module>:74 - Starting Excel processing...
+2025-05-22 12:23:05.381 | ERROR    | __main__:count_word_in_column:48 - Error reading Excel file: [Errno 2] No such file or directory: 'data/Feedback.xlsx'
+2025-05-22 12:23:05.382 | INFO     | __main__:process_excel_file:67 - Processed Excel file: data/Feedback.xlsx, Rows that contain word count saved to: processed_data/excel_feedback_github_count.txt
+2025-05-22 12:23:05.382 | INFO     | __main__:<module>:76 - Excel processing complete.
+2025-05-22 12:23:06.213 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 12:23:06.213 | INFO     | __main__:<module>:74 - Starting Excel processing...
+2025-05-22 12:23:06.214 | ERROR    | __main__:count_word_in_column:48 - Error reading Excel file: [Errno 2] No such file or directory: 'data/Feedback.xlsx'
+2025-05-22 12:23:06.215 | INFO     | __main__:process_excel_file:67 - Processed Excel file: data/Feedback.xlsx, Rows that contain word count saved to: processed_data/excel_feedback_github_count.txt
+2025-05-22 12:23:06.215 | INFO     | __main__:<module>:76 - Excel processing complete.
+2025-05-22 12:27:06.584 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 12:27:06.585 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-05-22 12:27:06.648 | INFO     | __main__:process_excel_file:76 - Processed Excel file: example_data/Feedback.xlsx, Word count saved to: example_processed/excel_feedback_github_count.txt
+2025-05-22 12:27:06.648 | INFO     | __main__:<module>:85 - Excel processing complete.
