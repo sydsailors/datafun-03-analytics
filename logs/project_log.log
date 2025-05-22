@@ -50,3 +50,7 @@
 2025-05-22 11:53:50.370 | INFO     | __main__:write_txt_file:80 - Writing data to example_data/romeo.txt...
 2025-05-22 11:53:50.371 | INFO     | __main__:write_txt_file:84 - SUCCESS: Data written to example_data/romeo.txt
 2025-05-22 11:53:50.372 | INFO     | __main__:fetch_txt_file:60 - SUCCESS: Text file fetched and saved as romeo.txt
+2025-05-22 11:56:08.621 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-05-22 11:56:08.624 | INFO     | __main__:<module>:97 - Starting CSV processing...
+2025-05-22 11:56:08.636 | INFO     | __main__:process_csv_file:90 - Processed CSV file: example_data/2020_happiness.csv, Statistics saved to: example_processed/happiness_ladder_score_stats.txt
+2025-05-22 11:56:08.636 | INFO     | __main__:<module>:99 - CSV processing complete.
