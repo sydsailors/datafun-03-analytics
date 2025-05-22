@@ -24,9 +24,8 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-# TODO: Replace with the names of your folders
-FETCHED_DATA_DIR: str = "sydney_data"
-PROCESSED_DIR: str = "sydney_processed"
+FETCHED_DATA_DIR: str = "sydney_project_data"
+PROCESSED_DIR: str = "sydney_project_processed"
 
 #####################################
 # Define Functions
@@ -47,19 +46,19 @@ def count_word_in_column(file_path: pathlib.Path, column_letter: str, word: str)
         return 0
 
 def process_excel_file():
-    """Read an Excel file, count occurrences of 'repository' in a specific column, and save the result."""
+    """Read an Excel file, count occurrences of 'Asia' in a specific column, and save the result."""
     
 
-    input_file = pathlib.Path(FETCHED_DATA_DIR, "Feedback.xlsx")
+    input_file = pathlib.Path(FETCHED_DATA_DIR, "Canada.xlsx")
 
 
-    output_file = pathlib.Path(PROCESSED_DIR, "excel_feedback_github_count.txt")
+    output_file = pathlib.Path(PROCESSED_DIR, "excel_Canada_Asia_count.txt")
 
 
-    column_to_check = "A"  
+    column_to_check = "E"  
 
 
-    word_to_count = "repository"
+    word_to_count = "Asia"
 
     # Call the function to count occurrences of the word in the specified column
     word_count = count_word_in_column(input_file, column_to_check, word_to_count)
