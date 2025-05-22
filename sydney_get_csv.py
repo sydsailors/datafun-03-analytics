@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "sydney_data"
+FETCHED_DATA_DIR = "sydney_project_data"
 
 #####################################
 # Define Functions
@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
+    csv_url = 'https://github.com/MainakRepositor/Datasets/blob/master/Gold%20Rates/annual_gold_rate.csv'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(FETCHED_DATA_DIR, "2020_happiness.csv", csv_url)
+    fetch_csv_file(FETCHED_DATA_DIR, "annual_gold_rate.csv", csv_url)
 
 #####################################
 # Conditional Execution
