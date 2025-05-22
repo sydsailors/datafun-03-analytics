@@ -68,7 +68,7 @@ def process_excel_file():
     
     # Open the output file in write mode and write the results
     with output_file.open('w') as file:
-        # TODO: Update the output to describe your results
+        
         file.write(f"Occurrences of '{word_to_count}' in column {column_to_check}: {word_count}\n")
     
     # Log the processing of the Excel file    
