@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching text data.
     """
-    txt_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/romeo.txt'
+    txt_url = 'https://gist.githubusercontent.com/blakesanie/dde3a2b7e698f52f389532b4b52bc254/raw/76fe1b5e9efcf0d2afdfd78b0bfaa737ad0a67d3/shakespeare.txt'
     logger.info("Starting text fetch demonstration...")
-    fetch_txt_file(FETCHED_DATA_DIR, "juliet.txt", txt_url)
+    fetch_txt_file(FETCHED_DATA_DIR, "shakespeare.txt", txt_url)
 
 #####################################
 # Conditional Execution
