@@ -50,5 +50,6 @@ python3 demo-script.py
 - yourname_process_txt.py
 
 ## Description of Files
-- [sydney_get_csv.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_get_csv.py) is a CSV file that fetches the CSV file 
-[Annual Gold Rates](https://raw.githubusercontent.com/MainakRepositor/Datasets/refs/heads/master/Gold%20Rates/annual_gold_rate.csv) from the web. 
+- [sydney_get_csv.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_get_csv.py) is a CSV file that fetches the CSV file [Annual Gold Rates](https://raw.githubusercontent.com/MainakRepositor/Datasets/refs/heads/master/Gold%20Rates/annual_gold_rate.csv) from the web. 
+  - [sydney_process_csv.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_process_csv.py) is a CSV file that processes statistics (min, max, mean, standard deviation) from the Annual Gold Rates file in the USD column. 
+    - Results: [CSV processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/annual_gold_rate_usd_rate.txt)

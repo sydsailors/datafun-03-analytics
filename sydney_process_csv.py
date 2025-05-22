@@ -1,5 +1,5 @@
 """
-Process a CSV file on 2020 Happiness ratings by country to analyze the `Ladder score` column and save statistics.
+Process a CSV file on Annual Gold Rates in USD to analyze the `USD` column and save statistics.
 """
 
 #####################################
@@ -61,7 +61,7 @@ def analyze_usd_rate(file_path: pathlib.Path) -> dict:
         return {}
 
 def process_csv_file():
-    """Read a CSV file, analyze Ladder score, and save the results."""
+    """Read a CSV file, analyze Gold Rates in USD, and save the results."""
     
 
     input_file = pathlib.Path(FETCHED_DATA_DIR, "annual_gold_rate.csv")
