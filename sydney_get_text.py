@@ -1,6 +1,6 @@
 """
-This example file fetches a text file of Romeo and Juliet from the web 
-and saves it to a local file named romeo.txt in a folder named example_data.
+This example file fetches a text file of Shakespeare from the web 
+and saves it to a local file named shakespeare.txt in a folder named sydney_project_data.
 
 Please save a copy of the provided utils_logger.py file 
 in the same folder as this file.
