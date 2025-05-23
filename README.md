@@ -62,3 +62,9 @@ python3 demo-script.py
 - [sydney_get_text.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_get_text.py) is a text file that fetches the text file [Shakespeare](https://gist.githubusercontent.com/blakesanie/dde3a2b7e698f52f389532b4b52bc254/raw/76fe1b5e9efcf0d2afdfd78b0bfaa737ad0a67d3/shakespeare.txt) from the web. 
     - [sydney_process_text.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_process_text.py) processes the count occurrences of the word "thou" from the Shakespeare file. 
         - Results: [Text processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/text_thou_word_count.txt)
+
+## Execution Commands to run Fetchers
+```shell
+if __name__ == '__main__':
+    main()
+```
