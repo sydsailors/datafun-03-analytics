@@ -63,8 +63,41 @@ python3 demo-script.py
     - [sydney_process_text.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_process_text.py) processes the count occurrences of the word "thou" from the Shakespeare file. 
         - Results: [Text processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/text_thou_word_count.txt)
 
-## Execution Commands to run Fetchers
+## Execution Command to run Fetchers
 ```shell
 if __name__ == '__main__':
     main()
+```
+
+## Execution Commands to run Processors
+CSV
+```shell
+if __name__ == "__main__":
+    logger.info("Starting CSV processing...")
+    process_csv_file()
+    logger.info("CSV processing complete.")
+```
+
+Excel
+```shell
+if __name__ == "__main__":
+    logger.info("Starting Excel processing...")
+    process_excel_file()
+    logger.info("Excel processing complete.")
+```
+
+JSON
+```shell
+if __name__ == "__main__":
+    logger.info("Starting JSON processing...")
+    process_json_file()
+    logger.info("JSON processing complete.")
+```
+
+Text
+```shell
+if __name__ == "__main__":
+    logger.info("Starting text processing...")
+    process_text_file()
+    logger.info("Text processing complete.")
 ```
