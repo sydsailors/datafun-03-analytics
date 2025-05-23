@@ -82,7 +82,7 @@ def process_json_file():
     
     # Open the output file in write mode and write the results
     with output_file.open('w') as file:
-        # TODO: Update the output to describe your results
+        
         file.write("Number of Years Each Category was Offered:\n")
         for category in category_counts.items():
             file.write(f"{category[0]}: {category[1]}\n")
