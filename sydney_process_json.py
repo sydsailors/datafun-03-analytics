@@ -22,7 +22,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-# TODO: Replace with the names of your folders
+
 FETCHED_DATA_DIR: str = "sydney_project_data"
 PROCESSED_DIR: str = "sydney_project_processed"
 

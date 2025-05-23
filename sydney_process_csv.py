@@ -76,7 +76,7 @@ def process_csv_file():
     # Open the output file in write mode and write the results
     with output_file.open('w') as file:
 
-        # TODO: Update the output to describe your results
+        
         file.write("USD Rate Statistics:\n")
         file.write(f"Minimum: {stats['min']:.2f}\n")
         file.write(f"Maximum: {stats['max']:.2f}\n")
