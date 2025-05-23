@@ -1,7 +1,5 @@
 """
-This example file fetches JSON data of astronauts currently in space 
-from the web and saves it to a local file named example_data/astronauts.json.
-
+This example file fetches JSON data of Nobel prizes for each year from the web.
 
 """
 
