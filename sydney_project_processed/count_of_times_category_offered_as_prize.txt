@@ -1,4 +1,4 @@
-Winners by category:
+Number of Years Each Category was Offered:
 ('chemistry', 124): {'chemistry': 124, 'economics': 56, 'literature': 124, 'peace': 124, 'physics': 124, 'medicine': 124}
 ('economics', 56): {'chemistry': 124, 'economics': 56, 'literature': 124, 'peace': 124, 'physics': 124, 'medicine': 124}
 ('literature', 124): {'chemistry': 124, 'economics': 56, 'literature': 124, 'peace': 124, 'physics': 124, 'medicine': 124}
