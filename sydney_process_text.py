@@ -52,7 +52,7 @@ def process_text_file():
 
     # Write the results to the output file
     with output_file.open('w') as file:
-        # TODO: Update the output to describe your results
+  
         file.write(f"Occurrences of '{word_to_count}': {word_count}\n")
     
     # Log the processing of the TEXT file
