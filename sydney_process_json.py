@@ -1,5 +1,5 @@
 """
-Process a JSON file to count astronauts by spacecraft and save the result.
+Process a JSON file to count how many years each category is offered as a prize and save the result.
 
 """
 
