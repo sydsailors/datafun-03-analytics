@@ -58,7 +58,7 @@ python3 demo-script.py
         - Results: [Excel processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/excel_Canada_Asia_count.txt)
 - [sydney_get_json.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_get_json.py) is a JSON file that fetches the JSON file [Nobel Prizes](https://raw.githubusercontent.com/sydsailors/datafun-03-analytics/refs/heads/main/sydney_project_data/nobel_prize.json) from the web. 
     - [sydney_process_json.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_process_json.py) processes the number of years a category (e.g., 'chemistry') is offered as a prize. 
-        - Results: [JSON processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/json_winners_by_category.txt)
+        - Results: [JSON processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/count_of_times_category_offered_as_prize.txt)
 - [sydney_get_text.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_get_text.py) is a text file that fetches the text file [Shakespeare](https://gist.githubusercontent.com/blakesanie/dde3a2b7e698f52f389532b4b52bc254/raw/76fe1b5e9efcf0d2afdfd78b0bfaa737ad0a67d3/shakespeare.txt) from the web. 
     - [sydney_process_text.py](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_process_text.py) processes the count occurrences of the word "thou" from the Shakespeare file. 
         - Results: [Text processed](https://github.com/sydsailors/datafun-03-analytics/blob/main/sydney_project_processed/text_thou_word_count.txt)
