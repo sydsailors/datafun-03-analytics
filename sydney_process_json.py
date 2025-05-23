@@ -85,7 +85,7 @@ def process_json_file():
         # TODO: Update the output to describe your results
         file.write("Number of Years Each Category was Offered:\n")
         for category in category_counts.items():
-            file.write(f"{category}: {category_counts}\n")
+            file.write(f"{category[0]}: {category[1]}\n")
     
     # Log the processing of the JSON file
     logger.info(f"Processed JSON file: {input_file}, Results saved to: {output_file}")
