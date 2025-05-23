@@ -66,7 +66,7 @@ def count_category_by_year(file_path: pathlib.Path) -> dict:
         return {} # return an empty dictionary in case of error
 
 def process_json_file():
-    """Read a JSON file, count astronauts by spacecraft, and save the result."""
+    """Read a JSON file, count the number of years each category was offered as a prize, and save the result."""
 
 
     input_file: pathlib.Path = pathlib.Path(FETCHED_DATA_DIR, "nobel_prize.json")
